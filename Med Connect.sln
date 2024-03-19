@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{9CA80F8E-9514-424D-A9C1-19A18F890C1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{48BB6136-A98C-47CF-91FB-697002610405}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{AB3B54D3-A0CC-415F-9947-13C376B2C485}"
+	ProjectSection(SolutionItems) = preProject
+		MainWindow.xaml = MainWindow.xaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doctor", "Doctor", "{34C73386-24E8-4CB0-8EF0-1D88CE1FCC7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patient", "Patient", "{F882085E-1CFA-4C79-9AC4-F77886258B85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appointment", "Appointment", "{9D34A820-8B4B-4646-B4C6-F4393E65E322}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MedicalRecord", "MedicalRecord", "{9DCF7C77-92ED-4AF8-9961-C2E6BEA6950D}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48BB6136-A98C-47CF-91FB-697002610405} = {9CA80F8E-9514-424D-A9C1-19A18F890C1F}
+		{34C73386-24E8-4CB0-8EF0-1D88CE1FCC7E} = {AB3B54D3-A0CC-415F-9947-13C376B2C485}
+		{F882085E-1CFA-4C79-9AC4-F77886258B85} = {AB3B54D3-A0CC-415F-9947-13C376B2C485}
+		{9D34A820-8B4B-4646-B4C6-F4393E65E322} = {AB3B54D3-A0CC-415F-9947-13C376B2C485}
+		{9DCF7C77-92ED-4AF8-9961-C2E6BEA6950D} = {AB3B54D3-A0CC-415F-9947-13C376B2C485}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2138413-085D-4EAE-9B5E-5D801A4F2E23}
+	EndGlobalSection
+EndGlobal
